@@ -18,6 +18,7 @@ jobs:
         with:
           fetch-depth: 0
           repository: 'temporalio/helm-charts'
+          path: 'charts/temporal'
 
       - name: Configure Git
         run: |
